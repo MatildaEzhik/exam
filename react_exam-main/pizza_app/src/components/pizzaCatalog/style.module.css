@@ -1,0 +1,62 @@
+.pizzaList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+h2{
+    margin: 5px;
+}
+
+.pizzaImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+
+.pizzaItem {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 200px;
+
+}
+
+.pizzaItem h3 {
+    font-size: 1.2em;
+}
+
+.pizzaItem p {
+    margin: 8px 0;
+}
+
+.orderButton{
+    margin-top: 8px;
+    padding: 8px 16px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.orderButton:hover {
+    background-color: #ff4500;
+}
+
+.addButton{
+    padding: 5px 10px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #ff6347;
+    color: white;
+}
+
+.searchInput{
+    margin: 10px 0;
+    height: 40px;
+    padding: 10px;
+}

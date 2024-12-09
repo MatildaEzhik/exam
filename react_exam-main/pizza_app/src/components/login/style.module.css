@@ -1,0 +1,13 @@
+.input{
+    height: 40px;
+    padding: 0 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px 0;
+}
+.button{
+    height: 40px;
+}

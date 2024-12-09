@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 15px 0px rgba(107,107,107,0.64);
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(107,107,107,0.64);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(107,107,107,0.64);
+    align-items: center;
+
+    p {
+        font-size: 25px;
+    }
+}
+
+.header__buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    a {
+        all:unset;
+        color: #000000;
+    }
+    a:hover{
+        color: #424242;
+        cursor: pointer;
+    }
+}
+
+.header__logo{
+
+}
